@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="rudii.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-card">
+            <h1 class="title">Study Timer</h1>
+            
+            <!-- Timer Display -->
+            <div id="timerDisplay" class="timer-display">00:00</div>
+            
+            <!-- Study Input -->
+            <div class="input-wrapper">
+                <input type="number" 
+                       id="studyMinutes" 
+                       placeholder="Enter study minutes"
+                       class="study-input">
+            </div>
+            
+            <!-- Main Controls -->
+            <div class="control-buttons">
+                <button id="startStudyButton" class="btn btn-start">Start Study</button>
+                <button id="pauseButton" class="btn btn-pause">Pause</button>
+            </div>
+            
+            <!-- Break Options -->
+            <div class="break-buttons">
+                <button class="btn btn-break break-button" data-time="5">
+                    5 min Break
+                </button>
+                <button class="btn btn-break break-button" data-time="15">
+                    15 min Break
+                </button>
+                <button class="btn btn-break break-button" data-time="30">
+                    30 min Break
+                </button>
+            </div>
+            
+            <!-- Reset Button -->
+            <button id="resetButton" class="btn btn-reset">Reset Timer</button>
+            <div class="bwh"  >
+                <a href="index.html"><button class="btn btn-button">Back</button></a>    
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'vividly';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #68bfb4;
+    color: #ffffff;
+  }
+  
+  /* Container Styling */
+  .container {
+    text-align: center;
+  }
+  
+  /* Logo Styling */
+  .logo img {
+    width: 392.45;
+    height: 392.45;
+    margin-bottom: 20px;
+  }
+  
+  /* Text Styling */
+  h1 {
+    font-size: 96px;
+    font-style: normal;
+    margin: 10px 0;
+    line-height: 77px;
+    font-style: italic;
+  }
+  
+  h2 {
+    font-size: 96px;
+    font-style: normal;
+    margin: 8px ;
+    line-height: 77px;
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 48px;
+    line-height: 39px 0;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  
+  /* Button Styling */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+  }
+  
+  .main-button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #ffffff;
+    color: #68bfb4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .main-button:hover {
+    background-color: #68bfb4;
+    color: #ffffff;
+  }
+  

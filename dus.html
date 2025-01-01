@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>✨Task Manager <span>✨</span></h1>
+            <p>Kelola tugas Anda dengan mudah</p>
+        </div>
+
+        <div class="task-form">
+            <label for="taskInput">Nama Tugas</label>
+            <input type="text" id="taskInput" placeholder="Masukkan nama tugas">
+
+            <label for="taskDescription">Deskripsi</label>
+            <textarea id="taskDescription" placeholder="Masukkan deskripsi tugas"></textarea>
+
+            <label for="deadlineInput">Deadline</label>
+            <input type="datetime-local" id="deadlineInput">
+
+            <button id="addTaskButton">+ Tambah Tugas</button>
+        </div>
+
+        <div class="task-list">
+            <h2>📄 Daftar Tugas</h2>
+            <ul id="taskList"></ul>
+        </div>
+
+       
+        <a href="index.html"><button class="back-button">Back</button></a>
+    </div>
+
+    <script src="scripts1.js"></script>
+</body>
+</html>

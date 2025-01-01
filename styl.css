@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'vividly';
+    margin: 0;
+    padding: 0;
+    background-color:#a8dfd1;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #7bc4b1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.header span {
+    color: #f5a623;
+}
+
+.header p {
+    font-size: 2rem;
+    color: #666;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form label {
+    font-weight: normal;
+    color: #444;
+    font-size: 2rem;
+}
+
+.task-form input, .task-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.task-form textarea {
+    resize: none;
+}
+
+.task-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.task-form button:hover {
+    background-color: #555;
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+.task-list h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-list button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.task-list button:hover {
+    background-color: #218838;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #e53e3e;
+}
